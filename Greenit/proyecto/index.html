@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Greenit</title>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="contenidoCompleto">
+    <!--Menú grande-->
+    <nav class="navbar navbar-expand-lg nav-black col-lg-12">
+      <img class="col-lg-2 pr-lg-0 mr-lg-5 d-md-none d-sm-none d-none d-lg-block" src="logo.jpg">
+      <a class="navbar-brand" href="#inicio">Inicio</a>
+      <a class="navbar-brand" href="#start">Empieza ya!</a>
+      <a class="navbar-brand" href="#greenit">GreenIt!</a>
+      <a class="navbar-brand" href="#noticias">Noticias</a>
+      <a class="navbar-brand" href="#equipo">Equipo</a>
+      <a class="navbar-brand" href="#contacto">Contacto</a>
+      <a class="navbar-brand" href="#questions">Preguntas frecuentes</a>
+    </nav>
+    <!--Fin del menú grande-->
+
+    <!--Imagen de fondo de incio-->
+    <img class="col-lg-12 mb-5" src="1.png"></a>
+
+    <!--Formulario de registro-->
+    <div class="login-wrap col-lg-11 mt-lg-5 mb-lg-5 pl-0">
+      <div class="login-html about">
+        <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Iniciar
+          sesión</label>
+        <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Regístrate</label>
+
+        <!--Inicio de sesión en la página-->
+        <div class="login-form">
+          <div class="sign-in-htm col-lg-4 offset-lg-4">
+            <div class="group">
+              <label for="user" class="label">Nombre de usuario</label>
+              <input id="user" type="text" class="input">
+            </div>
+            <div class="group">
+              <label for="pass" class="label">Contraseña</label>
+              <input id="pass" type="password" class="input" data-type="password">
+            </div>
+            <div class="group">
+              <input id="check" type="checkbox" class="check" checked>
+              <label for="check"><span class="icon"></span> Recuérdame</label>
+            </div>
+            <div class="group">
+              <input type="submit" class="button" value="Iniciar sesión">
+            </div>
+            <div class="hr"></div>
+            <div class="foot-lnk">
+              <p href="#forgot">¿Olvidaste tu contraseña?</p>
+            </div>
+          </div>
+          <!--Fin de inicio de sesión-->
+
+          <!--Registrarse como usuario-->
+          <div class="sign-up-htm col-lg-4 offset-lg-4">
+            <div class="group">
+              <label for="user" class="label">Usuario</label>
+              <input id="user" type="text" class="input">
+            </div>
+            <div class="group">
+              <label for="pass" class="label">Contraseña</label>
+              <input id="pass" type="password" class="input" data-type="password">
+            </div>
+            <div class="group">
+              <label for="pass" class="label">Repetir contraseña</label>
+              <input id="pass" type="password" class="input" data-type="password">
+            </div>
+            <div class="group">
+              <label for="pass" class="label">Email</label>
+              <input id="pass" type="text" class="input">
+            </div>
+            <div class="group">
+              <input id="check" type="checkbox" class="check" checked>
+              <label for="check"><span class="icon"></span> Acepto la Politica de privacidad</label>
+            </div>
+            <div class="group">
+              <input type="submit" class="button" value="Registrarse">
+            </div>
+            <div class="hr"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Fin del formulario-->
+
+    <!--Elección de dieta que quieres-->
+    <div class="col-lg-12 box-start">
+      <a name="start">
+        <h1 class="mb-lg-5">Selecciona el tipo de dieta</h1>
+      </a>
+      <div id="formDieta">
+        <form action="#" name="formulario">
+          <h2 class="mb-4">Elige tu dieta</h2>
+          <input class="mr-2 validartip" type="radio" class="btn btn-outline-success">Success
+          <input class="mr-2 validartip" type="radio" value="vegetariana" name="validartip">Vegetariana
+          <input class="mr-2 validartip" type="radio" value="vegana" name="validartip">Vegana
+          <input class="mr-2 validartip" type="radio" value="mediterranea" name="validartip">Mediterranea
+          <input class="mr-2 validartip" type="radio" value="rica_en_fibra" name="validartip">Rica en Fibra
+          <input class="mr-2 validartip" type="radio" value="todas" name="validartip">Todas
+          <br><br>
+          <div class="custom-control custom-switch pl-0">
+            <h2 class="mb-4 pl-0">Aquí tu/s alérgenos en caso de tenerlos</h2>
+            <input class="mr-2 alergeForm" type="checkbox" value="gluten" name="alergeForm">Cereales con Glúten
+            <input class="mr-2 alergeForm" type="checkbox" value="marisco" name="alergeForm">Marisco
+            <input class="mr-2 alergeForm" type="checkbox" value="huevo" name="alergeForm">Huevo
+            <input class="mr-2 alergeForm" type="checkbox" value="pescado" name="alergeForm">Pescado
+            <input class="mr-2 alergeForm" type="checkbox" value="cacahuete" name="alergeForm">Cacahuete
+            <input class="mr-2 alergeForm" type="checkbox" value="soja" name="alergeForm">Soja
+            <input class="mr-2 alergeForm" type="checkbox" value="lacteos" name="alergeForm">Lácteos
+            <input class="mr-2 alergeForm" type="checkbox" value="frutos_secos" name="alergeForm">Frutos Secos
+          </div>
+          <br><br>
+          <input class="btn btn-primary" type="button" onclick="MostrarAlimentos2()" value="Busqueda">
+        </form>
+        <br>
+      </div>
+    </div>
+    <!--Fin elección de dietas-->
+
+
+    <hr>
+    <br>
+
+    <!--FILTRO DE ALIMENTOS-->
+    <div class="col-lg-10 box-filter mb-5 offset-1">
+      <div class="row">
+        <div class="col-lg-4 scroll" id="resultados">
+          <h4 class="about">Los alimentos en temporada son:</h4>
+          <div id="contenedorTemporada">
+            <ul class="mt-4 pl-sm-0" id="listaResultadosTemporada">
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 scroll">
+          <h4 class="about">Los alimentos más sostenibles en tu zona son:</h4>
+          <div id="contenedorRegion">
+            <ul class="mt-4 pl-sm-0" id="listaResultadosRegion">
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 scroll">
+          <h4 class="about">Tu selección de alimentos es:</h4>
+          <div id="contenedorListaGeneral">
+            <ul class="mt-4 pl-sm-0" id="listaResultados" list-style="none">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--FIN FILTRO DE ALIMENTOS-->
+
+    <!--EXPLICACIÓN DE GREENIT-->
+    <div class="mb-5">
+      <a name="greenit">
+        <div class="about mt-5">
+      </a>
+      <h3>Conoce GreenIt!</h3>
+      <p class="offset-lg-1 col-lg-10 mb-5">GreenIt es una aplicación web que te proporciona una dieta personalizada en
+        función de tu dieta y tus alérgenos. Con ellos, podemos mostrarte los alimentos de temporada y producidos en tu
+        zona. Alimentos que, gracias a ello, generarán una huella ecológica mínima.</p>
+      </a>
+    </div>
+    <!--FIN DE EXPLICACIÓN-->
+
+
+
+    <!--DEFINICIÓN DE LOS DIFERENTES APARTADOS DE LA PÁGINA-->
+    <div class="iconos">
+      <table class="table col-lg-10 offset-lg-1">
+        <thead>
+          <tr>
+            <th scope="col"><i class="fas fa-globe-americas col-lg-12"></i>HUELLA ECOLÓGICA</th>
+            <th scope="col"><i class="fas fa-clipboard-check col-lg-12"></i>TU ELECCIÓN</th>
+            <th scope="col"><i class="fas fa-magic col-lg-12"></i>DISEÑO</th>
+            <th scope="col"><i class="fas fa-file-signature col-lg-12"></i>CRITERIOS</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Se trata de un indicador del impacto ambiental generado por la cantidad del consumo de recursos
+              naturales
+              realizado por cada individuo. Un alimento, cuando menos huella ecológica genera es siendo de proximidad y
+              de
+              temporada.</td>
+            <td>Para poder filtrar los alimentos que te mostramos, tenemos en cuenta tu elección, la comunidad autónoma
+              desde donde buscas y el momento del año. Con ello conseguimos mostrarte una selección personalizada de
+              alimentos con poco impacto medioambiental.</td>
+            <td>Con un sencillo e intuitivo diseño podrás navegar por nuestra web para conocer nuestra motivación por
+              ayudarte con tus hábitos sostenibles y saber un poco más sobre nosotros.</td>
+            <td>En GreenIt! podrás personalizar a tu gusto todo lo que comes con solo un click seleccionand tu dieta y
+              tus
+              necesiades alimentarias. No tendrás que volver a preocuparte por encontrar en tu zona los productos que
+              necesitas.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--FIN DEFINICIÓN-->
+
+    <a name="noticias">
+      <h4 class="about mt-5">Noticias | Recetas nuevas</h4>
+    </a>
+
+
+    <div class="row mt-5 col-10 offset-1">
+      <div class="col-3" id="photos">
+        <img class="food" src="6.jpg">
+        </a>
+      </div>
+      <div class="col-3">
+        <img class="food" src="7.jpg">
+        </a>
+      </div>
+      <div class="col-3">
+        <img class="food" src="8.jpg">
+        </a>
+      </div>
+      <div class="col-3">
+        <img class="food" src="9.jpg">
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+  </hr>
+
+
+
+  <!--INTEGRANTES DEL EQUIPO-->
+  <div class="about mb-5">
+    <h3 class="mb-lg-5">EQUIPO</h3>
+    <a name="equipo"></a>
+    <div class="container-fluid">
+      <div class="team-container row">
+        <div class="col-lg-2">
+          <img class="img-fluid" src="..\img\alvaro.jpg">
+          <h2>Álvaro</h2>
+          <p><a class="btn btn-secondary" target="_blank" href="https://www.linkedin.com/in/alvaroperod/"
+              role="button">Linked<i class="fab fa-linkedin ml-1"></i></a></p>
+        </div>
+        <div class="col-lg-2">
+          <img class="img-fluid" src="aitor.png">
+          <h2>Aitor</h2>
+          <p><a class="btn btn-secondary" target="_blank"
+              href="https://www.linkedin.com/in/aitor-cuadrado-ocampos-b81643154/" role="button"><span
+                class="disenito">Linked<i class="fab fa-linkedin ml-1"></i></span></a></p>
+        </div>
+        <div class="col-lg-2">
+          <img class="img-fluid" src="niki.jpg">
+          <h2>Niki</h2>
+          <p><a class="btn btn-secondary" target="_blank" href="https://www.linkedin.com/in/nikidelgado/"
+              role="button">Linked<i class="fab fa-linkedin ml-1"></i></a></p>
+        </div>
+        <div class="col-lg-2">
+          <img class="img-fluid" src="nerea.png">
+          <h2>Nerea</h2>
+          <p><a class="btn btn-secondary" target="_blank"
+              href="https://es.linkedin.com/in/nerea-s%C3%A1nchez-carazo-7b410514b" role="button">Linked<i
+                class="fab fa-linkedin ml-1"></i></a></p>
+        </div>
+        <div class="col-lg-2">
+          <img class="img-fluid" src="roberto.jpg">
+          <h2>Roberto</h2>
+          <p><a class="btn btn-secondary" target="_blank" href="https://www.linkedin.com/in/robertollopis/"
+              role="button">Linked<i class="fab fa-linkedin ml-1"></i></a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--FIN INTEGRANTES DEL EQUIPO-->
+
+
+  <!--FORMULARIO DE ENCUESTA-->
+
+  <div class="container-fluid mt-5 mb-5">
+    <div class="row">
+      <a name="contacto"></a>
+      <div class="col-lg-5 col-md-12">
+        <img class="col-md-12" src="5.png">
+      </div>
+      <div class="col-lg-5 offset-lg-2 col-md-12">
+        <form>
+          <div class="form-group col-lg-10 col-md-12">
+            <h3 class="mb-4">CONTACTO</h3>
+            <label for="exampleInputEmail1">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Introduce tu Email">
+          </div>
+          <div class="form-group col-lg-10 col-md-12">
+            <label for="exampleInputPassword1">Número de teléfono</label>
+            <input type="phone" class="form-control" id="exampleInputPassword1" placeholder="Número">
+          </div>
+          <div class="form-group col-lg-10 col-md-12">
+            <label for="exampleFormControlTextarea1">Comentario</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <div class="form-group form-check mt-4">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Acepto los términos de uso</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!--FIN FORMULARIO DE ENCUESTA-->
+
+  </hr>
+
+  <!-- Contenedor Principal -->
+  <h3 class="mt-5 about">Comentarios</h3>
+  <div class="feed-container mt-5">
+    <div class="feed-border clearfix">
+      <div class="feed-avatar">
+        <img src="https://ohsheglows.com/gs_images/2016/02/20160124-App-Breakfasts-00851-256x256.jpg" alt="" />
+      </div>
+      <div class="feed-content col-9">
+        <div class="username">@<a href="#">SeñorZanahorio</a></div>
+        <p>Me encanta esta página, es mi favorita, tiene un montón de dietas.</p>
+      </div>
+    </div>
+    <div class="feed-footer clearfix">
+      <div class="footer-left">
+        <span class="footer-time">Hace 1 minuto</span>
+      </div>
+      <div class="footer-right">
+        <span class="plusOne"><a href="#" title="Me gusta"><i class="fa fa-heart"></i> 12</a></span>
+        <span class="divisor"></span>
+        <span class="favs"><a href="#" title="Favoritos"><i class="fa fa-star-o"></i> 1</a></span>
+        <span class="divisor"></span>
+        <span class="share"><a href="#" title="Compartir"><i class="fa fa-retweet"></i> 2</a></span>
+        <span class="divisor"></span>
+        <span class="comment"><a href="#" title="Comentarios"><i class="fa fa-comments"></i> 3</a></span>
+      </div>
+    </div>
+  </div>
+
+  <hr class="mt-5">
+
+
+  <!--APARTADO PREGUNTAS FRECUENTES-->
+  <div class="questions offset-lg-1 pb-5 col-lg-12 col-sm-12 col-md-12 ml-md-0">
+    <a name="questions"></a>
+    <h4 class="mt-5 mb-5 offset-lg-1 col-sm-11">Preguntas frecuentes</h4>
+    <h5>¿Como podemos contactar con vosotros?</h5>
+    <p>Puedes ponerte en contacto con nosotros a través del formulario que ofrecemos en el apartado de contacto,
+      en él, introduciendo tu Email, número de teléfono y el comentario que quieras añadir, nos ayudará para
+      ponernos en contacto contigo.</p>
+    <h5>¿En que criterios se basa?</h5>
+    <p>Hemos añadido una serie de dietas determinadas que podrás personalizar a tu gusto, seleccionando el tipo
+      de
+      dieta que te interese, nosotros, haremos una selección de los productos mas cercanos a tu zona.</p>
+    <h5>¿Se incorporarán nuevas dietas en un futuro?</h5>
+    <p>Si, se trata de una web escalable que en un futuro busca incorporar nuevos tipos de dieta para satisfacer
+      así la necesidad del usuario.</p>
+    <h5>¿Si me registro en la web recibiré contenido relacionado a la misma?</h5>
+    <p>Registrandote en nuestra web, recibirás mensualmente un boletin de noticias en el que te informaremos
+      sobre
+      nuevas dietas, alimentos, o información que se encuentre en estos momentos en el mercado actual.</p>
+    <h5>¿Es necesario registrarse para utilizar la web?</h5>
+    <p>No, no es necesario registrarte en ella, puedes utilizarla sin necesidad de ello, pero un registro en
+      ella
+      te facilitará nuevas noticias y actualizaciones de la página.</p>
+  </div>
+  <!--FIN FPREGUNTAS-->
+
+  <div class="contenedor-redes-sociales">
+    <a class="facebook" href="#" target="_blank">
+      <span class="circulo"><i class="fa fa-facebook"></i></span>
+      <span class="titulo">Facebook</span>
+      <span class="titulo-hover">Seguir</span>
+    </a>
+
+    <a class="twitter" href="#">
+      <span class="circulo"><i class="fa fa-twitter"></i></span>
+      <span class="titulo">Twitter</span>
+      <span class="titulo-hover">Seguir</span>
+    </a>
+
+    <a class="gplus" href="#" target="_blank">
+      <span class="circulo"><i class="fa fa-google-plus"></i></span>
+      <span class="titulo">Google+</span>
+      <span class="titulo-hover">Seguir</span>
+    </a>
+  </div>
+
+  <!--COMIENZO DEL FOOTER-->
+  <footer>
+    <div class="mt-5">
+      <div class="footer">
+        <p class="text-align-center"> <a href="#"> Aviso de privacidad </a> | <a href="#"> Área legal </a> | <a
+            href="#"> Coockies </a> | Todos los derechos reservados - GreenIt! ©</p>
+      </div>
+    </div>
+  </footer>
+  <!--FIN DEL FOOTER-->
+  </div>
+</body>
+
+<!--CDN DE BOOTSTRAP, JAVASCRIPT Y JQUERY-->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script type="text/javascript" src="main.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+
+</html>
